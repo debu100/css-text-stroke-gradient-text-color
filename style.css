@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-size: 6em;
+  background: linear-gradient(to right, #ff00d2, #fed90f, #00a2ff, #09f1b8);
+  color: #111;
+  /* -webkit-text-fill-color: transparent; */
+  -webkit-text-stroke: 0.1em transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  letter-spacing: 0.5rem;
+}
